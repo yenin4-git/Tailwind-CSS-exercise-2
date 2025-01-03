@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/37c54f81c0.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Header Section -->
+    <header class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Faïbeauté</h1>
+            <nav class="flex space-x-4">
+                <a href="#" class="hover:underline">Accueil</a>
+                <a href="#" class="hover:underline">Articles</a>
+                <a href="#" class="hover:underline">À propos</a>
+                <a href="#" class="hover:underline">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Featured Articles Section -->
+    <section class="container mx-auto my-8">
+        <h2 class="text-xl font-semibold mb-4">Vêtement pour en Enfant fille</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="bg-white p-4 shadow rounded">
+                <img src="/assets/images/1.jpg" alt="Article 1" class="w-full h-40 object-cover rounded">
+                <h3 class="text-lg font-bold mt-2">1-3 Ans Bébé Fille Robe Avec Bretelles Robe D'été</h3>
+                <p class="text-sm mt-1">5,439 FCFA</p>
+            </div>
+            <div class="bg-white p-4 shadow rounded">
+                <img src="/assets/images/2.jpg" alt="Article 2" class="w-full h-40 object-cover rounded">
+                <h3 class="text-lg font-bold mt-2">1-6 Ans Fille Manches Courtes Top Robe Florale</h3>
+                <p class="text-sm mt-1">6,473 FCFA</p>
+            </div>
+            <div class="bg-white p-4 shadow rounded">
+                <img src="/assets/images/3.jpg" alt="Article 3" class="w-full h-40 object-cover rounded">
+                <h3 class="text-lg font-bold mt-2">Robe Bretelle Rayée</h3>
+                <p class="text-sm mt-1">8,000 FCFA</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="container mx-auto my-8">
+        <h2 class="text-xl font-semibold mb-4">Catégories</h2>
+        <div class="flex flex-wrap gap-2">
+            <span class="bg-blue-100 text-blue-600 px-4 py-2 rounded-full text-sm">Technologie</span>
+            <span class="bg-green-100 text-green-600 px-4 py-2 rounded-full text-sm">Voyage</span>
+            <span class="bg-yellow-100 text-yellow-600 px-4 py-2 rounded-full text-sm">Cuisine</span>
+            <span class="bg-red-100 text-red-600 px-4 py-2 rounded-full text-sm">Lifestyle</span>
+        </div>
+    </section>
+
+    <!-- Recent Articles Section -->
+    <section class="container mx-auto my-8">
+        <h2 class="text-xl font-semibold mb-4">Articles récents</h2>
+        <ul class="space-y-4">
+            <li class="border-b pb-2">
+                <h3 class="text-lg font-bold">Côte d’Ivoire : L’autorité portuaire visite le ‘’Seven seas mariner’’ en escale au port d’Abidjan</h3>
+                <p class="text-sm text-gray-500">Publié le 16 mai 2023 au port d’Abidjan</p>
+            </li>
+            <li class="border-b pb-2">
+                <h3 class="text-lg font-bold">Voyage à Sassandra</h3>
+                <p class="text-sm text-gray-500">Publié le 23 novembre 2023</p>
+            </li>
+            <li class="border-b pb-2">
+                <h3 class="text-lg font-bold">Abidjan en 10 Jours : immersion totale dans la perle de la Côte d’Ivoire</h3>
+                <p class="text-sm text-gray-500">Publié le 16 septembre 2023
+                </p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Newsletter Subscription Section -->
+    <section class="bg-gray-200 py-8">
+        <div class="container mx-auto text-center">
+            <h2 class="text-xl font-semibold mb-4">Abonnez-vous à notre lettre d'information</h2>
+            <form class="flex flex-col sm:flex-row justify-center items-center gap-2">
+                <input type="email" placeholder="Votre adresse e-mail" class="px-4 py-2 border rounded w-80">
+                <button class="bg-blue-600 text-white px-4 py-2 rounded">S'abonner</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto flex flex-col sm:flex-row justify-between items-center">
+            <p>&copy; Faïbeauté. Tous droits réservés.</p>
+            <div class="flex space-x-4">
+                <a href="#" class="hover:text-gray-300"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="hover:text-gray-300"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" class="hover:text-gray-300"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
